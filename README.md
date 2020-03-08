@@ -12,7 +12,7 @@ or REAL
 Chatbot on telegram to detect if news is FAKE
 or REAL
 
-###Results
+## Results
 Displays top trending genuine news and top trending fake news.
 
 Detection of Input news is Real or Fake
