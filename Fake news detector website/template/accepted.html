@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fake News Prediction</title>
+  </head>
+    <style>
+        .rel{
+            padding: 10px;
+            background-color: azure;
+        }
+        .result{
+            color: red;
+        }
+        .blink {
+      animation: blinker 0.6s linear infinite;
+      color: #1c87c9;
+      font-size: 30px;
+      font-weight: bold;
+            color: red;
+            text-align: center;
+      font-family: sans-serif;
+      }
+        
+        @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+        .text{
+            background-color: white;
+  width: 70%;
+            align-content: center;            
+  border: 5px dotted lightblue;
+  padding: 5px;
+  margin: 50px;
+        }
+ 
+    </style>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+
+    <p class="blink">  {{name}}   </p> 
+     <div class="text"> <p> Submitted text :
+      
+          {{sub}}
+          <br>          <br>
+          <br>
+          <br>
+         </p></div>
+      <div class="rel"><p>
+      
+         <h2> Related News:</h2>
+<a href="{{t2[0]}}">{{
+          t1[0]
+    }}</a>
+          <br>   
+     <br>
+<a href="{{t2[1]}}">{{
+          t1[1]
+    }}</a>
+      <br><br>
+       <a href="{{t2[2]}}">{{
+          t1[2]
+           }}</a>
+          
+      <br><br>
+     <a href="{{t2[3]}}">  {{
+          t1[3]
+          }}
+         <br>  </a> 
+    
+          <br>
+      <a href="{{t2[4]}}">  {{
+          t1[4]
+          }}
+         <br> 
+      </p></div>
+      
+    {% endblock %}
+  </body>
+</html>

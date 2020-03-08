@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fake News Prediction</title>
+    <style>
+      input[name="inp"]{
+        background: white;
+        align-content: center;
+        padding: 10px;
+          height: 200px;
+        width:70%;
+        border-radius: 20px;
+        border: 5px solid lightblue;
+    }
+    button[name="click"]
+    {
+        width:70%;
+        height: 30px;
+        background-color: aquamarine;
+    }
+    
+      
+    </style>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <p> <h2>Enter the text below:</h2>
+             <div class="textbox"><br>
+    <form  method="POST" action="/accepted">
+        <p align="center" ><input type="text" name="inp" placeholder="Search.."><br><br>
+            <button type="submit" name="click">Submit</button></p>
+    </form>
+        </div>
+      </p>
+    {% endblock %}
+  </body>
+</html>

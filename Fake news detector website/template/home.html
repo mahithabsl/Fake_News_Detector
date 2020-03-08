@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>News Prediction </title>
+  </head>
+    <style>
+    * {
+  box-sizing: border-box;
+}
+        .r{
+            font-size: 40px;
+            font-weight: 500;
+            color: darkcyan;
+        }
+        .f{
+            font-size: 40px;
+            color: red;
+        }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 550px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+      <div class="row">
+  <div class="column" style="background-color:white;">
+      <div class=r>Top Trending REAL News </div>
+    <p>
+      <a href="{{l2[0]}}"> {{ l1[0]}} </a><br><br>
+        <a href="{{l2[1]}}"> {{l1[1] }} </a><br><br>
+        <a href="{{l2[2]}}"> {{l1[2] }} </a><br><br>
+        <a href="{{l2[3]}}"> {{l1[3] }} </a><br><br>
+        <a href="{{l2[4]}}">{{ l1[4] }} </a><br>    <br>  
+        <a href="{{l2[5]}}"> {{l1[5] }} </a><br><br>
+        <a href="{{l2[6]}}"> {{l1[6] }} </a><br><br>
+        <a href="{{l2[7]}}">{{ l1[7] }} </a><br>    <br>  
+      
+      </p>
+  </div>
+  <div class="column" style="background-color:offwhite;">
+    <div class=f>Top Trending FAKE News </div><br>
+     <a href="https://www.snopes.com/fact-check/zinc-lozenges-coronavirus/">A letter providing tips on how to protect against the new coronavirus was authored by pathologist James Robb.</a><br><br>
+      <a href="https://www.snopes.com/fact-check/pope-francis-coronavirus/">In February 2020 the Vatican said that Pope Francis and two aides had tested positive for COVID-19, a disease caused by a new coronavirus.</a>
+      <br><br>
+      <a href=" https://www.snopes.com/fact-check/dean-koontz-predicted-coronavirus/">Author Dean Koontz predicted the 2020 new coronavirus outbreak in his 1981 novel "The Eyes of Darkness."</a><br><br>
+      <a href="https://www.snopes.com/fact-check/asteroid-warning-april-2020/">NASA warned that Asteroid 52768 (1998 OR2) could hit Earth in April 2020 and cause catastrophic danger.</a><br><br>
+      <a href="https://www.snopes.com/fact-check/coronavirus-cameroonian-student/">Chinese doctors confirmed that African people are "genetically resistant" to new coronavirus.</a><br><br>
+      <a href="https://www.snopes.com/fact-check/quaden-bayles-suicide-hoax/">The BBC reported in February 2020 that Quaden Bayles had committed suicide.</a>
+  </div>
+</div>
+
+    
+   {% endblock %}
+  </body>
+</html>
