@@ -25,9 +25,9 @@ or REAL
 * Natural Language Processing
 
 ## Results
-Displays top trending genuine news and top trending fake news.
+* Displays top trending genuine news and top trending fake news.
 
-Detection of Input news is Real or Fake
+* Detection of Input news is Real or Fake
 
-Find keywords from input news using NLP and related genuine news articles
+* Find keywords from input news using NLP and related genuine news articles
 to give user more clarity
