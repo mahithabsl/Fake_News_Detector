@@ -7,10 +7,13 @@ Flask based Web App to detect if news is FAKE
 or REAL
 
 
+
 ### 2) Chatbot ###
 
 Chatbot on telegram to detect if news is FAKE
 or REAL
+
+Link to telegram bot : https://t.me/fakeNewsDetectorBot
 
 ## TechStack ##
 
