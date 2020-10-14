@@ -6,6 +6,7 @@
 Flask based Web App to detect if news is FAKE
 or REAL
 
+Link to website: https://desolate-harbor-17272.herokuapp.com/
 
 
 ### 2) Chatbot ###
