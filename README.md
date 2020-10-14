@@ -20,7 +20,7 @@ Link to telegram bot : https://t.me/fakeNewsDetectorBot
 
 * Machine Learning Model
 
-* Web Scrapping (newsapi)
+* Web Scraping (newsapi)
 
 * Flask Framework
 
