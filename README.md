@@ -9,6 +9,13 @@ or REAL
 Link to website: https://desolate-harbor-17272.herokuapp.com/
 
 
+#### Top Real and Fake news ####
+<img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/web1.PNG">
+
+#### News predictor ####
+<img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/web2.PNG" >
+
+
 ### 2) Chatbot ###
 
 Chatbot on telegram to detect if news is FAKE
@@ -16,9 +23,16 @@ or REAL
 
 Link to telegram bot : https://t.me/fakeNewsDetectorBot
 
-Top real News | Top Fake News| Verify News
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG)  |  ![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot2.PNG) |  ![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot3.PNG)
+
+#### Top Real news ####
+<img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG" width="75%" height="650">
+
+#### Top Fake news ####
+<img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot2.PNG" width="75%" height="650">
+
+#### News predictior ####
+<img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot3.PNG" width="75%" height="650">
+
 
 ## TechStack ##
 
