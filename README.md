@@ -16,17 +16,9 @@ or REAL
 
 Link to telegram bot : https://t.me/fakeNewsDetectorBot
 
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG" alt="Snow" width="300" height="380">
-  </div>
-  <div class="column">
-    <img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG" alt="Snow" width="300" height="380">
-  </div>
-  <div class="column">
-    <img src="https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG" alt="Snow" width="300" height="380">
-  </div>
-</div>
+Top real News | Top Fake News| Verify News
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot1.PNG)  |  ![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot2.PNG) |  ![](https://github.com/mahithabsl/Fake_News_Detector/blob/master/images/bot3.PNG)
 
 ## TechStack ##
 
